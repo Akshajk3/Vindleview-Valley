@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Project name
+project(MyGameProject)
+
+# Specify the C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Add the source files
+set(SOURCE_FILES
+    Main.cpp
+    Entity.cpp
+    RenderWindow.cpp
+    TextureManager.cpp
+    Animation.cpp
+    Tilemap.cpp
+    Player.cpp
+    Particle.cpp
+    Tree.cpp
+    Item.cpp
+    Building.cpp
+    Plant.cpp
+    Inventory.cpp
+)
+
+# Add the executable
+add_executable(main ${SOURCE_FILES})
+
+# Set the paths to the SDL2 and SDL2_image libraries and headers
+set(SDL2_LIBRARY "/opt/homebrew/lib/libSDL2-2.0.0.dylib")  # Update with the correct path if needed
+set(SDL2_IMAGE_LIBRARY "/opt/homebrew/lib/libSDL2_image.dylib")  # Update with the correct path if needed
+
+# Set the include directories for SDL2 and SDL2_image
+set(SDL2_INCLUDE_DIR "/opt/homebrew/include/")
+set(SDL2_IMAGE_INCLUDE_DIR "/opt/homebrew/include/")
+
+# Check if the paths were found
+if(NOT EXISTS ${SDL2_INCLUDE_DIR})
+    message(FATAL_ERROR "SDL2 include directory not found.")
+endif()
+
+if(NOT EXISTS ${SDL2_IMAGE_INCLUDE_DIR})
+    message(FATAL_ERROR "SDL2_image include directory not found.")
+endif()
+
+# Link SDL2 and SDL2_image libraries
+target_include_directories(main PRIVATE ${SDL2_INCLUDE_DIR} ${SDL2_IMAGE_INCLUDE_DIR})
+target_link_libraries(main ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARY})

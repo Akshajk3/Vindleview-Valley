@@ -35,7 +35,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/akshajkanumuri/Documents/GitHub/VS-Code-Projects/C++ Projects/SDL2/Vindleview Valley/Vindleview Valley"
+      customWorkingDirectory = "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"

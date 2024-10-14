@@ -1,0 +1,3 @@
+/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles/main.dir
+/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles/edit_cache.dir
+/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles/rebuild_cache.dir

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6939822CB6EAC700126340 /* AssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE6939812CB6EAC700126340 /* AssetManager.cpp */; };
 		AE7DC4C22AC8855500367168 /* Building.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7DC4C02AC8855500367168 /* Building.cpp */; };
 		AE84BAA12AB4C1BF00BB329A /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE84BAA02AB4C1BF00BB329A /* Item.cpp */; };
 		AE98C1FB2AD3E33A006EABE5 /* Inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE98C1FA2AD3E33A006EABE5 /* Inventory.cpp */; };
@@ -37,6 +38,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE6939802CB6EAB000126340 /* AssetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AssetManager.h; path = ../AssetManager.h; sourceTree = SOURCE_ROOT; };
+		AE6939812CB6EAC700126340 /* AssetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AssetManager.cpp; path = ../AssetManager.cpp; sourceTree = SOURCE_ROOT; };
 		AE7DC4C02AC8855500367168 /* Building.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Building.cpp; path = ../../Building.cpp; sourceTree = "<group>"; };
 		AE7DC4C12AC8855500367168 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Building.h; path = ../../Building.h; sourceTree = "<group>"; };
 		AE84BA9D2AB2E9E800BB329A /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../../Item.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				AEBFE0E02AAED7DF00E99C79 /* Plant.cpp */,
 				AE84BA9D2AB2E9E800BB329A /* Item.h */,
 				AE84BAA02AB4C1BF00BB329A /* Item.cpp */,
+				AE6939802CB6EAB000126340 /* AssetManager.h */,
+				AE6939812CB6EAC700126340 /* AssetManager.cpp */,
 			);
 			path = VindelValley;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6939822CB6EAC700126340 /* AssetManager.cpp in Sources */,
 				AE84BAA12AB4C1BF00BB329A /* Item.cpp in Sources */,
 				AEB8AC0E2AC3E33B002CC826 /* Particle.cpp in Sources */,
 				AEBFE0DB2AAE8ADA00E99C79 /* Entity.cpp in Sources */,
