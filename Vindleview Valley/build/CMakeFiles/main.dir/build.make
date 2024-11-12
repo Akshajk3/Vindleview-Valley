@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.30.2/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.30.2/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,183 +73,183 @@ CMakeFiles/main.dir/Main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Main.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Main.cpp
 CMakeFiles/main.dir/Main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/Main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Main.cpp.o -MF CMakeFiles/main.dir/Main.cpp.o.d -o CMakeFiles/main.dir/Main.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Main.cpp.o -MF CMakeFiles/main.dir/Main.cpp.o.d -o CMakeFiles/main.dir/Main.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp"
 
 CMakeFiles/main.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp" > CMakeFiles/main.dir/Main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp" > CMakeFiles/main.dir/Main.cpp.i
 
 CMakeFiles/main.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp" -o CMakeFiles/main.dir/Main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Main.cpp" -o CMakeFiles/main.dir/Main.cpp.s
 
 CMakeFiles/main.dir/Entity.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Entity.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Entity.cpp
 CMakeFiles/main.dir/Entity.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/Entity.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entity.cpp.o -MF CMakeFiles/main.dir/Entity.cpp.o.d -o CMakeFiles/main.dir/Entity.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Entity.cpp.o -MF CMakeFiles/main.dir/Entity.cpp.o.d -o CMakeFiles/main.dir/Entity.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp"
 
 CMakeFiles/main.dir/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Entity.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp" > CMakeFiles/main.dir/Entity.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp" > CMakeFiles/main.dir/Entity.cpp.i
 
 CMakeFiles/main.dir/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Entity.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp" -o CMakeFiles/main.dir/Entity.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Entity.cpp" -o CMakeFiles/main.dir/Entity.cpp.s
 
 CMakeFiles/main.dir/RenderWindow.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/RenderWindow.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/RenderWindow.cpp
 CMakeFiles/main.dir/RenderWindow.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/RenderWindow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/RenderWindow.cpp.o -MF CMakeFiles/main.dir/RenderWindow.cpp.o.d -o CMakeFiles/main.dir/RenderWindow.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/RenderWindow.cpp.o -MF CMakeFiles/main.dir/RenderWindow.cpp.o.d -o CMakeFiles/main.dir/RenderWindow.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp"
 
 CMakeFiles/main.dir/RenderWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/RenderWindow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp" > CMakeFiles/main.dir/RenderWindow.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp" > CMakeFiles/main.dir/RenderWindow.cpp.i
 
 CMakeFiles/main.dir/RenderWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/RenderWindow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp" -o CMakeFiles/main.dir/RenderWindow.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/RenderWindow.cpp" -o CMakeFiles/main.dir/RenderWindow.cpp.s
 
 CMakeFiles/main.dir/TextureManager.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/TextureManager.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/TextureManager.cpp
 CMakeFiles/main.dir/TextureManager.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/TextureManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/TextureManager.cpp.o -MF CMakeFiles/main.dir/TextureManager.cpp.o.d -o CMakeFiles/main.dir/TextureManager.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/TextureManager.cpp.o -MF CMakeFiles/main.dir/TextureManager.cpp.o.d -o CMakeFiles/main.dir/TextureManager.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp"
 
 CMakeFiles/main.dir/TextureManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/TextureManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp" > CMakeFiles/main.dir/TextureManager.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp" > CMakeFiles/main.dir/TextureManager.cpp.i
 
 CMakeFiles/main.dir/TextureManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/TextureManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp" -o CMakeFiles/main.dir/TextureManager.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/TextureManager.cpp" -o CMakeFiles/main.dir/TextureManager.cpp.s
 
 CMakeFiles/main.dir/Animation.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Animation.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Animation.cpp
 CMakeFiles/main.dir/Animation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/Animation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Animation.cpp.o -MF CMakeFiles/main.dir/Animation.cpp.o.d -o CMakeFiles/main.dir/Animation.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Animation.cpp.o -MF CMakeFiles/main.dir/Animation.cpp.o.d -o CMakeFiles/main.dir/Animation.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp"
 
 CMakeFiles/main.dir/Animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Animation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp" > CMakeFiles/main.dir/Animation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp" > CMakeFiles/main.dir/Animation.cpp.i
 
 CMakeFiles/main.dir/Animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Animation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp" -o CMakeFiles/main.dir/Animation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Animation.cpp" -o CMakeFiles/main.dir/Animation.cpp.s
 
 CMakeFiles/main.dir/Tilemap.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Tilemap.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Tilemap.cpp
 CMakeFiles/main.dir/Tilemap.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/Tilemap.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Tilemap.cpp.o -MF CMakeFiles/main.dir/Tilemap.cpp.o.d -o CMakeFiles/main.dir/Tilemap.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Tilemap.cpp.o -MF CMakeFiles/main.dir/Tilemap.cpp.o.d -o CMakeFiles/main.dir/Tilemap.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp"
 
 CMakeFiles/main.dir/Tilemap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Tilemap.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp" > CMakeFiles/main.dir/Tilemap.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp" > CMakeFiles/main.dir/Tilemap.cpp.i
 
 CMakeFiles/main.dir/Tilemap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tilemap.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp" -o CMakeFiles/main.dir/Tilemap.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tilemap.cpp" -o CMakeFiles/main.dir/Tilemap.cpp.s
 
 CMakeFiles/main.dir/Player.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Player.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Player.cpp
 CMakeFiles/main.dir/Player.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/Player.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Player.cpp.o -MF CMakeFiles/main.dir/Player.cpp.o.d -o CMakeFiles/main.dir/Player.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Player.cpp.o -MF CMakeFiles/main.dir/Player.cpp.o.d -o CMakeFiles/main.dir/Player.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp"
 
 CMakeFiles/main.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Player.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp" > CMakeFiles/main.dir/Player.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp" > CMakeFiles/main.dir/Player.cpp.i
 
 CMakeFiles/main.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Player.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp" -o CMakeFiles/main.dir/Player.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Player.cpp" -o CMakeFiles/main.dir/Player.cpp.s
 
 CMakeFiles/main.dir/Particle.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Particle.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Particle.cpp
 CMakeFiles/main.dir/Particle.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/Particle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Particle.cpp.o -MF CMakeFiles/main.dir/Particle.cpp.o.d -o CMakeFiles/main.dir/Particle.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Particle.cpp.o -MF CMakeFiles/main.dir/Particle.cpp.o.d -o CMakeFiles/main.dir/Particle.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp"
 
 CMakeFiles/main.dir/Particle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Particle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp" > CMakeFiles/main.dir/Particle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp" > CMakeFiles/main.dir/Particle.cpp.i
 
 CMakeFiles/main.dir/Particle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Particle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp" -o CMakeFiles/main.dir/Particle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Particle.cpp" -o CMakeFiles/main.dir/Particle.cpp.s
 
 CMakeFiles/main.dir/Tree.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Tree.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Tree.cpp
 CMakeFiles/main.dir/Tree.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/Tree.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Tree.cpp.o -MF CMakeFiles/main.dir/Tree.cpp.o.d -o CMakeFiles/main.dir/Tree.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Tree.cpp.o -MF CMakeFiles/main.dir/Tree.cpp.o.d -o CMakeFiles/main.dir/Tree.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp"
 
 CMakeFiles/main.dir/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Tree.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp" > CMakeFiles/main.dir/Tree.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp" > CMakeFiles/main.dir/Tree.cpp.i
 
 CMakeFiles/main.dir/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Tree.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp" -o CMakeFiles/main.dir/Tree.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Tree.cpp" -o CMakeFiles/main.dir/Tree.cpp.s
 
 CMakeFiles/main.dir/Item.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Item.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Item.cpp
 CMakeFiles/main.dir/Item.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/Item.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Item.cpp.o -MF CMakeFiles/main.dir/Item.cpp.o.d -o CMakeFiles/main.dir/Item.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Item.cpp.o -MF CMakeFiles/main.dir/Item.cpp.o.d -o CMakeFiles/main.dir/Item.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp"
 
 CMakeFiles/main.dir/Item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Item.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp" > CMakeFiles/main.dir/Item.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp" > CMakeFiles/main.dir/Item.cpp.i
 
 CMakeFiles/main.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Item.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp" -o CMakeFiles/main.dir/Item.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Item.cpp" -o CMakeFiles/main.dir/Item.cpp.s
 
 CMakeFiles/main.dir/Building.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Building.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Building.cpp
 CMakeFiles/main.dir/Building.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/Building.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Building.cpp.o -MF CMakeFiles/main.dir/Building.cpp.o.d -o CMakeFiles/main.dir/Building.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Building.cpp.o -MF CMakeFiles/main.dir/Building.cpp.o.d -o CMakeFiles/main.dir/Building.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp"
 
 CMakeFiles/main.dir/Building.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Building.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp" > CMakeFiles/main.dir/Building.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp" > CMakeFiles/main.dir/Building.cpp.i
 
 CMakeFiles/main.dir/Building.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Building.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp" -o CMakeFiles/main.dir/Building.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Building.cpp" -o CMakeFiles/main.dir/Building.cpp.s
 
 CMakeFiles/main.dir/Plant.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Plant.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Plant.cpp
 CMakeFiles/main.dir/Plant.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/Plant.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Plant.cpp.o -MF CMakeFiles/main.dir/Plant.cpp.o.d -o CMakeFiles/main.dir/Plant.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Plant.cpp.o -MF CMakeFiles/main.dir/Plant.cpp.o.d -o CMakeFiles/main.dir/Plant.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp"
 
 CMakeFiles/main.dir/Plant.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Plant.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp" > CMakeFiles/main.dir/Plant.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp" > CMakeFiles/main.dir/Plant.cpp.i
 
 CMakeFiles/main.dir/Plant.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Plant.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp" -o CMakeFiles/main.dir/Plant.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Plant.cpp" -o CMakeFiles/main.dir/Plant.cpp.s
 
 CMakeFiles/main.dir/Inventory.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/Inventory.cpp.o: /Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview\ Valley/Inventory.cpp
 CMakeFiles/main.dir/Inventory.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/Inventory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Inventory.cpp.o -MF CMakeFiles/main.dir/Inventory.cpp.o.d -o CMakeFiles/main.dir/Inventory.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/Inventory.cpp.o -MF CMakeFiles/main.dir/Inventory.cpp.o.d -o CMakeFiles/main.dir/Inventory.cpp.o -c "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp"
 
 CMakeFiles/main.dir/Inventory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/Inventory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp" > CMakeFiles/main.dir/Inventory.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp" > CMakeFiles/main.dir/Inventory.cpp.i
 
 CMakeFiles/main.dir/Inventory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/Inventory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp" -o CMakeFiles/main.dir/Inventory.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/akshajkanumuri/Documents/GitHub/Vindleview-Valley/Vindleview Valley/Inventory.cpp" -o CMakeFiles/main.dir/Inventory.cpp.s
 
 # Object files for target main
 main_OBJECTS = \

@@ -5,6 +5,10 @@
 #include <vector>
 #include <string>
 #include <random>
+#include <fstream>
+
+#include "json.hpp"
+using json = nlohmann::json;
 
 #include "RenderWindow.h"
 #include "TextureManager.h"
@@ -18,7 +22,6 @@
 #include "Particle.h"
 #include "Building.h"
 #include "Inventory.h"
-#include "AssetManager.h"
 
 int grass[40][50];
 
@@ -32,6 +35,9 @@ const int worldHeight = 100;
 
 int cameraX = 0;
 int cameraY = 0;
+
+std::map<std::string, std::vector<SDL_Texture*>> assets;
+std::map<std::string, std::string> assetPaths;
 
 void initMap()
 {
@@ -51,6 +57,33 @@ int randomRange(int min, int max)
     std::uniform_int_distribution<> distr(min, max);
     
     return distr(eng);
+}
+
+void loadAssetsFromJson(RenderWindow& window, TextureManager& textureManager, const std::string& filename)
+{	
+	std::ifstream file(filename);
+	if (!file.is_open())
+	{
+		std::cerr << "Failed to open asset file: " << filename << std::endl;
+		return;
+	}
+
+	json assetData;
+	file >> assetData;
+	file.close();
+
+	for (auto& category : assetData.items()) {
+		for (auto& asset : category.value().items()) {
+			std::string assetName = asset.key();
+			std::string path = asset.value();
+
+			std::cout << "Path: " << path << std::endl;
+
+			assetPaths[assetName] = path;
+
+			assets[assetName] = textureManager.loadTextures(path, window.renderer);
+		}
+	}
 }
 
 int main(int argc, char* argv[])
@@ -79,107 +112,7 @@ int main(int argc, char* argv[])
 
 	TextureManager textureManager;
 
-	std::map<std::string, std::vector<SDL_Texture*>> assets;
-
-	std::map<std::string, std::string> assetPaths;
-
-// Player Asset Paths
-	assetPaths["idle_down"] = ("Assets/Characters/images/idle_down");
-	assetPaths["walk_down"] = ("Assets/Characters/images/walk_down");
-	assetPaths["hoe_down"] = ("Assets/Characters/images/hoe_down");
-	assetPaths["axe_down"] = ("Assets/Characters/images/axe_down");
-	assetPaths["water_down"] = ("Assets/Characters/images/water_down");
-	assetPaths["idle_left"] = ("Assets/Characters/images/idle_left");
-	assetPaths["walk_left"] = ("Assets/Characters/images/walk_left");
-	assetPaths["hoe_left"] = ("Assets/Characters/images/hoe_left");
-	assetPaths["axe_left"] = ("Assets/Characters/images/axe_left");
-	assetPaths["water_left"] = ("Assets/Characters/images/water_left");
-	assetPaths["idle_right"] = ("Assets/Characters/images/idle_right");
-	assetPaths["walk_right"] = ("Assets/Characters/images/walk_right");
-	assetPaths["hoe_right"] = ("Assets/Characters/images/hoe_right");
-	assetPaths["axe_right"] = ("Assets/Characters/images/axe_right");
-	assetPaths["water_right"] = ("Assets/Characters/images/water_right");
-	assetPaths["idle_up"] = ("Assets/Characters/images/idle_up");
-	assetPaths["walk_up"] = ("Assets/Characters/images/walk_up");
-	assetPaths["hoe_up"] = ("Assets/Characters/images/hoe_up");
-	assetPaths["axe_up"] = ("Assets/Characters/images/axe_up");
-	assetPaths["water_up"] = ("Assets/Characters/images/water_up");
-
-// Entity Asset Paths
-	assetPaths["cow_idle"] = ("Assets/Characters/images/cow/idle");
-	assetPaths["chicken_idle"] = ("Assets/Characters/images/chicken/idle");
-	
-// Tilemap Asset Paths
-	assetPaths["grass"] = ("Assets/Tilesets/images/grass");
-	assetPaths["fence"] = ("Assets/Tilesets/images/fence");
-	assetPaths["till"] = ("Assets/Tilesets/images/till");
-
-// UI Asset Paths
-	assetPaths["hoe"] = ("Assets/Objects/images/Basic tools and meterials_2.png");
-	assetPaths["axe"] = ("Assets/Objects/images/Basic tools and meterials_1.png");
-	assetPaths["water"] = ("Assets/Objects/images/Basic tools and meterials_0.png");
-    assetPaths["wheatBag"] = ("Assets/Objects/images/wheat/00.png");
-    assetPaths["beetBag"] = ("Assets/Objects/images/beet/00.png");
-    
-// Plant Asests Paths
-    assetPaths["wheat"] = ("Assets/Objects/images/wheat");
-	assetPaths["beet"] = ("Assets/Objects/images/beet");
-
-// Tree Asset Paths
-	assetPaths["tree1"] = ("Assets/Objects/images/trees1");
-	assetPaths["tree2"] = ("Assets/Objects/images/trees2");
-
-// Item Asset Paths
-	assetPaths["wood"] = ("Assets/Objects/images/wood");
-
-// Mouse Asset Paths
-	assetPaths["cursor"] = ("Assets/Mouse_sprites");
-
-// Particle Asset Paths
-	assetPaths["smoke"] = ("Assets/Particles/Smoke");
-
-// Building Asset Paths
-    assetPaths["house"] = ("Assets/Objects/House.png");
-
-// Inventory Asset Paths
-	assetPaths["inv"] = ("Assets/Inventory/tiles");
-
-// Chest Asset Paths
-	assetPaths["chest"] = ("Assets/Objects/images/chest");
-	
-// Player Assets
-	assets["idle_down"] = textureManager.loadTextures(assetPaths["idle_down"], window.renderer);
-	assets["walk_down"] = textureManager.loadTextures(assetPaths["walk_down"], window.renderer);
-	assets["hoe_down"] = textureManager.loadTextures(assetPaths["hoe_down"], window.renderer);
-	assets["axe_down"] = textureManager.loadTextures(assetPaths["axe_down"], window.renderer);
-	assets["water_down"] = textureManager.loadTextures(assetPaths["water_down"], window.renderer);
-	assets["idle_left"] = textureManager.loadTextures(assetPaths["idle_left"], window.renderer);
-	assets["walk_left"] = textureManager.loadTextures(assetPaths["walk_left"], window.renderer);
-	assets["hoe_left"] = textureManager.loadTextures(assetPaths["hoe_left"], window.renderer);
-	assets["axe_left"] = textureManager.loadTextures(assetPaths["axe_left"], window.renderer);
-	assets["water_left"] = textureManager.loadTextures(assetPaths["water_left"], window.renderer);
-	assets["idle_right"] = textureManager.loadTextures(assetPaths["idle_right"], window.renderer);
-	assets["walk_right"] = textureManager.loadTextures(assetPaths["walk_right"], window.renderer);
-	assets["hoe_right"] = textureManager.loadTextures(assetPaths["hoe_right"], window.renderer);
-	assets["axe_right"] = textureManager.loadTextures(assetPaths["axe_right"], window.renderer);
-	assets["water_right"] = textureManager.loadTextures(assetPaths["water_right"], window.renderer);
-	assets["idle_up"] = textureManager.loadTextures(assetPaths["idle_up"], window.renderer);
-	assets["walk_up"] = textureManager.loadTextures(assetPaths["walk_up"], window.renderer);
-	assets["hoe_up"] = textureManager.loadTextures(assetPaths["hoe_up"], window.renderer);
-	assets["axe_up"] = textureManager.loadTextures(assetPaths["axe_up"], window.renderer);
-	assets["water_up"] = textureManager.loadTextures(assetPaths["water_up"], window.renderer);
-
-// Entity Assets
-	assets["cow_idle"] = textureManager.loadTextures(assetPaths["cow_idle"], window.renderer);
-	assets["chicken_idle"] = textureManager.loadTextures(assetPaths["chicken_idle"], window.renderer);
-
-// Tilemap Assets
-	assets["grass"] = textureManager.loadTextures(assetPaths["grass"], window.renderer);
-	assets["fence"] = textureManager.loadTextures(assetPaths["fence"], window.renderer);
-	assets["till"] = textureManager.loadTextures(assetPaths["till"], window.renderer);
-
-// Inventory Assets
-	assets["inv"] = textureManager.loadTextures(assetPaths["inv"], window.renderer);
+	loadAssetsFromJson(window, textureManager, "assets.json");
     
 // Building Assets
     SDL_Texture* houseTex = textureManager.loadTexture(assetPaths["house"].c_str(), window.renderer);

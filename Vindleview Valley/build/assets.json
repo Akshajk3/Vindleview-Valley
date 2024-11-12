@@ -1,0 +1,29 @@
+{
+  "PlayerAssets": {
+    "idle_up" : "Assets/Characters/images/idle_up",
+    "idle_down" : "Assets/Characters/images/idle_down",
+    "idle_left" : "Assets/Characters/images/idle_left",
+    "idle_right" : "Assets/Characters/images/idle_right",
+    "walk_up" : "Assets/Characters/images/walk_up",
+    "walk_down" : "Assets/Characters/images/walk_down",
+    "walk_left" : "Assets/Characters/images/walk_left",
+    "walk_right" : "Assets/Characters/images/walk_right",
+    "hoe_up" : "Assets/Characters/images/hoe_up",
+    "hoe_down" : "Assets/Characters/images/hoe_down",
+    "hoe_left" : "Assets/Characters/images/hoe_left",
+    "hoe_right" : "Assets/Characters/images/hoe_right",
+    "axe_up" : "Assets/Characters/images/axe_up",
+    "axe_down" : "Assets/Characters/images/axe_down",
+    "axe_left" : "Assets/Characters/images/axe_left",
+    "axe_right" : "Assets/Characters/images/axe_right",
+    "water_up" : "Assets/Characters/images/water_up",
+    "water_down" : "Assets/Characters/images/water_down",
+    "water_left" : "Assets/Characters/images/water_left",
+    "water_right" : "Assets/Characters/images/water_right"
+  },
+  "TilemapAssets": {
+    "grass": "Assets/Tilesets/images/grass",
+    "fence": "Assets/Tilesets/images/fence",
+    "till" : "Assets/Tilesets/images/till"
+  }
+}
